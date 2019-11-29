@@ -1,10 +1,4 @@
 var words = ["bounce", "divergent", "friend", "waiting", "determined", "sprout", "integration", "photocopy", "breakdown", "secretary", "restoration", "concentration", "criticism", "adventure", "formulate", "unimaginable", "pollutedness"];
-
-
-
-
-
-
 var userInputHolder = [];
 var userInputHolderLength = userInputHolder.length;
 var sameWordCount=0;

@@ -1,4 +1,21 @@
 html{
     background-color: black;
     color: white;
+    font-size: 18px;
+}
+
+#winText{
+    color: rgb(2, 219, 2);
+}
+
+#lossText{
+    color: red;
+}
+
+#currentWordText{
+    color: rgb(110, 190, 255);
+}
+
+#blankArray{
+    color: rgb(110, 190, 255);
 }
