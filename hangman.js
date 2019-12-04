@@ -42,6 +42,7 @@ wordPicker();
 function winCounter(){
     winCount++;
     document.getElementById("winText").innerHTML = "Wins: " + winCount;
+    document.getElementById("previousWord").innerHTML = "The previous word was: " + wordPicked;
     wordPicker();
 }
 
@@ -49,6 +50,8 @@ function winCounter(){
 function lossCounter(){
     lossCount++;
     document.getElementById("lossText").innerHTML = "Losses: " + lossCount;
+    document.getElementById("previousWord").innerHTML = "The previous word was: " + wordPicked;
+
     wordPicker();
 }
 
